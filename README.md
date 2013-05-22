@@ -12,7 +12,7 @@ Usage:
     
 * use the skinobject in the container file, like this:
 
-    <Apollo:MODULEPROPERTIES ID="ModuleProperties" runat="server" FormatString="Last modified on: {0}" DateFormat="F"/>
+    &lt;Apollo:MODULEPROPERTIES ID=&quot;ModuleProperties&quot; runat=&quot;server&quot; FormatString=&quot;Last modified on: {0}&quot; DateFormat=&quot;F&quot;/&gt;
     
 this will render as the following HTML:
 
