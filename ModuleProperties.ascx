@@ -1,0 +1,2 @@
+<%@ Control Language="C#" AutoEventWireup="false" Inherits="DesktopModules.Apollo.ModuleProperties.ModuleProperties" CodeFile="ModuleProperties.ascx.cs" %>
+<asp:Label runat="server" ID="lblModuleProperties"></asp:Label>

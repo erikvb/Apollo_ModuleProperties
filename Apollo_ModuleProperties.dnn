@@ -1,0 +1,39 @@
+﻿<dotnetnuke type="Package" version="5.0">
+  <packages>
+    <package name="Apollo_ModuleProperties" type="SkinObject" version="0.0.1">
+      <friendlyName>Apollo ModuleProperties</friendlyName>
+      <description>This Container SkinObject can display attributes modules. First fully supported module is the HTML module</description>
+      <license src="License.htm" />
+      <releaseNotes />
+      <owner>
+        <name>Erik van Ballegoij</name>
+        <organization></organization>
+        <url><![CDATA[<a href="erikvanballegoij.com" target="_blank">erikvanballegoij.com</a>]]></url>
+        <email><![CDATA[<a href="mailto:erik.vanballegoij@gmail.com">erik.vanballegoij@gmail.com</a>]]></email>
+      </owner>
+      <dependencies>
+        <dependency type="CoreVersion">07.00.00</dependency>
+      </dependencies>
+      <components>
+        <component type="SkinObject">
+          <moduleControl>
+            <controlKey>MODULEPROPERTIES</controlKey>
+            <controlSrc>DesktopModules/Apollo/ModuleProperties/ModuleProperties.ascx</controlSrc>
+            <supportsPartialRendering>False</supportsPartialRendering>
+          </moduleControl>
+        </component>
+        <component type="File">
+          <files>
+            <basePath>DesktopModules\Apollo\ModuleProperties</basePath>
+            <file>
+              <name>ModuleProperties.ascx</name>
+            </file>
+            <file>
+              <name>ModuleProperties.ascx.cs</name>
+            </file>
+          </files>
+        </component>
+      </components>
+    </package>
+  </packages>
+</dotnetnuke>
